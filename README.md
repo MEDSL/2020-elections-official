@@ -4,10 +4,7 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
  Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
  
-<p align="center">
-  <img src="
-https://github.com/MEDSL/2020-elections-official/issues/1" width="350" title="Precinct progress">
-</p>
+![Screenshot](precinct_progress_map.png)
 
 
 
