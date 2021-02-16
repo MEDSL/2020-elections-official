@@ -10,6 +10,10 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
 The returns are in progress, and will be updated periodically until completion. The following states and districts are included in the dataset:
 
+## Arkansas
+
+Added 02-16-2021. Local data not included at the moment.
+
 ## District of Columbia
 
 Added 01-29-2021. For DC, the jurisdiction_name variable indicates ward number. Local data not included at the moment.
