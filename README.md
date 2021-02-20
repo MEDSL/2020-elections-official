@@ -22,6 +22,10 @@ Added 01-29-2021. For DC, the jurisdiction_name variable indicates ward number. 
 
 Added 02-09-2021. Local data not included at the moment.
 
+## Massachusetts
+
+Added 02-19-2021. Local data and state legislative elections not included at the moment.
+
 ## Montana
 
 Added 02-02-2021.
