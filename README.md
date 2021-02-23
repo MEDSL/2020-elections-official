@@ -10,6 +10,10 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
 The returns are in progress, and will be updated periodically until completion. The following states and districts are included in the dataset:
 
+## Alabama
+
+Added 02-22-2021. Local data not included at the moment. Overvotes and Undervotes were not reported on offical canvas results so were not verified.
+
 ## Arkansas
 
 Added 02-16-2021. Local data not included at the moment.
