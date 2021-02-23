@@ -18,6 +18,18 @@ Added 02-22-2021. Local data not included at the moment. Overvotes and Undervote
 
 Added 02-16-2021. Local data not included at the moment.
 
+## Connecticut
+
+Added 02-22-2021. Local data not included at the moment.
+
+There were a small number of discrepancies between our cleaned precinct results and the results from the Secretary of State's website (https://ctemspublic.pcctg.net/#/selectTown). These seem to be from a couple of duplicate rows in the exported data, which we have removed in our cleaned data. This means that for a small number of offices, we will report a slightly lower number of total votes than the results posted online. 
+
+Here are the discrepancies:
+For office STATE SENATE district 024, SUSAN CHAPMAN has 823 in our data instead of 827 reported online
+For office US HOUSE district 003, MARGARET STREICKER has 6026 in our data instead of 6030 reported online
+For office US PRESIDENT, HAWKINS AND WALKER has 7529 in our data instead of 7538 reported online
+For office US PRESIDENT, JORGENSEN AND COHEN has 20225 in our data instead of 20230 reported online
+
 ## District of Columbia
 
 Added 01-29-2021. For DC, the jurisdiction_name variable indicates ward number. Local data not included at the moment.
