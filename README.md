@@ -14,6 +14,10 @@ The returns are in progress, and will be updated periodically until completion. 
 
 Added 02-22-2021. Local data not included at the moment. Overvotes and Undervotes were not reported on offical canvas results so were not verified.
 
+## Alaska
+
+Added 02-23-2021. 
+
 ## Arkansas
 
 Added 02-16-2021. Local data not included at the moment.
