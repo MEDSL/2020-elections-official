@@ -54,6 +54,10 @@ Added 02-02-2021.
 
 Added 01-27-2021.
 
+## North Dakota
+
+Added 02-24-2021. Local data not included at the moment.
+
 ## Oklahoma
 
 Added 02-01-2021. Local data not included at the moment.
