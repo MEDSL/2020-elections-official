@@ -56,7 +56,7 @@ Added 01-27-2021.
 
 ## North Dakota
 
-Added 02-24-2021. Local data not included at the moment.
+Added 02-24-2021. Local data and state legislative election results not included at the moment.
 
 ## Oklahoma
 
