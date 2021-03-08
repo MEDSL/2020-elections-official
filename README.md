@@ -42,6 +42,34 @@ For office US PRESIDENT, JORGENSEN AND COHEN has 20225 in our data instead of 20
 
 Added 01-29-2021. For DC, the jurisdiction_name variable indicates ward number. Local data not included at the moment.
 
+## Florida
+
+Added 03-08-2021. Local data not included at the moment. Overvotes, Undervotes and some write-in candidate votes were not reported on offical canvas results so were not verified.
+
+There are a number of very small discrepancies between our precinct data and  in the Florida data. Most of the discrepancies, when looking at aggregate vote totals, are less than 10 votes. The discrepancies come from Monroe County, Seminole County, and for some of the elections that had recounts. Here is a list of offices and districts with small discrepancies:
+
+All statewide offices, including us president, supreme court, and all of the constitutional amendments
+
+CIRCUIT JUDGE		15TH JUDICIAL CIRCUIT, GROUP 30
+
+US HOUSE			District 007
+
+US HOUSE			District 026
+
+STATE SENATE		District 009
+
+STATE SENATE		District 037
+
+STATE SENATE		District 039
+
+STATE HOUSE			District 028
+
+STATE HOUSE			District 029
+
+STATE HOUSE			District 030
+
+STATE HOUSE			District 120
+
 ## Maryland
 
 Added 02-09-2021. Local data not included at the moment.
