@@ -90,6 +90,17 @@ Added 01-27-2021.
 
 Added 02-24-2021. Local data and state legislative election results not included at the moment.
 
+## Ohio
+
+Added 03-16-2021. Local data not included at the moment.
+
+Ohio records its data with precincts on rows and candidates on columns. However, they record candidates that were not selectable in a particular precinct (because they did not run in a the associated district) as having received 0 votes, which is otherwise indistinguishable from candidates who ran in a precinct but received no votes. Keeping all these entries as is yields over 3 million records records and an extremely large file, so 0 vote records were manually dropped as follows:
+  - Records for candidates running for US President were kept as is.
+  - For all other records, entries with 0 votes were discarded.
+This leads to the unfortunate situation where every other race (including US House, State Senate and State House elections, which are district based but do not list name of county) will have more records than needed removed (namely, records of candidates who ran in a precinct but got 0 votes there).
+
+Ohio does not provide precinct-based vote totals for writein candidates, but they do provide a county-based vote total for each writein. The cleaned dataset aggregates all writeins per office on a county basis.
+
 ## Oklahoma
 
 Added 02-01-2021. Local data not included at the moment.
@@ -97,6 +108,12 @@ Added 02-01-2021. Local data not included at the moment.
 ## Tennessee
 
 Added 01-28-2021. Local data not included at the moment.
+
+## Utah
+
+Added 03-16-2021. Local data not included at the moment.
+
+Duchesne county is short one vote compared to official sources (https://electionresults.utah.gov/elections/). As such, the county of Duchesne is flagged readme_check==True. 
 
 ## Virginia
 
