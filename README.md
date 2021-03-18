@@ -70,6 +70,10 @@ STATE HOUSE			District 030
 
 STATE HOUSE			District 120
 
+## Georgia
+
+Added 03-18-2021. Local data not included at the moment.
+
 ## Maryland
 
 Added 02-09-2021. Local data not included at the moment.
