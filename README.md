@@ -80,7 +80,7 @@ Added 02-09-2021. Local data not included at the moment.
 
 ## Massachusetts
 
-Added 02-19-2021. Local data and state legislative election results not included at the moment.
+Added 02-19-2021. Local data not included at the moment. State legislative results added 03-23-2021.
 
 ## Montana
 
