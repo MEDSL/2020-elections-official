@@ -86,6 +86,12 @@ Added 02-19-2021. Local data not included at the moment. State legislative resul
 
 Added 02-02-2021.
 
+## New Mexico
+
+Added 03-28-2021. Local data not included at the moment.
+
+New Mexico "masks" vote totals in precinct results for candidates with small vote tallies, to protect the privacy of voters. These masked votes are denoted as "-1" in the votes column.
+
 ## North Carolina
 
 Added 01-27-2021.
