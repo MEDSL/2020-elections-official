@@ -44,7 +44,9 @@ Added 01-29-2021. For DC, the jurisdiction_name variable indicates ward number. 
 
 ## Florida
 
-Added 03-08-2021. Local data not included at the moment. Overvotes, Undervotes and some write-in candidate votes were not reported on offical canvas results so were not verified.
+Added 03-08-2021. Local data not included at the moment. 
+
+* Overvotes, Undervotes and some write-in candidate votes were not reported on offical canvas results so were not verified.
 
 There are a number of very small discrepancies between our precinct data and  in the Florida data. Most of the discrepancies, when looking at aggregate vote totals, are less than 10 votes. The discrepancies come from Monroe County, Seminole County, and for some of the elections that had recounts. Here is a list of offices and districts with small discrepancies:
 
@@ -74,6 +76,14 @@ STATE HOUSE			District 120
 
 Added 03-18-2021. Local data not included at the moment.
 
+## Illinois
+
+Added 03-31-2021. Local data not included at the moment.
+
+* Official IL results report only certain individual write-in candidates, while precinct data reports scatter wrtie-ins
+
+* Judge McGlynn (District 020 Retention Race) is missing from official IL results. They were nominated and approved to serve in a federal district court in 2020.
+
 ## Maryland
 
 Added 02-09-2021. Local data not included at the moment.
@@ -90,7 +100,7 @@ Added 02-02-2021.
 
 Added 03-28-2021. Local data not included at the moment.
 
-New Mexico "masks" vote totals in precinct results for candidates with small vote tallies, to protect the privacy of voters. These masked votes are denoted as "-1" in the votes column.
+* New Mexico "masks" vote totals in precinct results for candidates with small vote tallies, to protect the privacy of voters. These masked votes are denoted as "-1" in the votes column.
 
 ## North Carolina
 
@@ -123,7 +133,7 @@ Added 01-28-2021. Local data not included at the moment.
 
 Added 03-16-2021. Local data not included at the moment.
 
-Duchesne county is short one vote compared to official sources (https://electionresults.utah.gov/elections/). As such, the county of Duchesne is flagged readme_check==True. 
+*Duchesne county is short one vote compared to official sources (https://electionresults.utah.gov/elections/). As such, the county of Duchesne is flagged readme_check==True. 
 
 ## Virginia
 
