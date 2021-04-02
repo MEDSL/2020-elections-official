@@ -76,6 +76,10 @@ STATE HOUSE			District 120
 
 Added 03-18-2021. Local data not included at the moment.
 
+## Hawaii
+
+Added 04-02-2021. 
+
 ## Illinois
 
 Added 03-31-2021. Local data not included at the moment.
