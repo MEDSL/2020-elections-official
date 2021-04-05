@@ -80,6 +80,12 @@ Added 03-18-2021. Local data not included at the moment.
 
 Added 04-02-2021. 
 
+## Idaho
+
+Added 04-05-2021. Local data not included at the moment.
+
+* For Constitutional Amendment HJR 4, Power County reported 2,017 votes for YES (https://sos.idaho.gov/elections-division/2020-results-statewide/) while the raw data reported 1,967 votes. This accounts for the entirety of the vote difference when comparing the Secretary of State total (525,779) versus the raw data total (525,729).
+
 ## Illinois
 
 Added 03-31-2021. Local data not included at the moment.
