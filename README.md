@@ -94,6 +94,10 @@ Added 03-31-2021. Local data not included at the moment.
 
 * Judge McGlynn (District 020 Retention Race) is missing from official IL results. They were nominated and approved to serve in a federal district court in 2020.
 
+## Louisiana
+
+Added 4-20-2021. Local data not included at the moment.
+
 ## Maryland
 
 Added 02-09-2021. Local data not included at the moment.
@@ -101,6 +105,16 @@ Added 02-09-2021. Local data not included at the moment.
 ## Massachusetts
 
 Added 02-19-2021. Local data not included at the moment. State legislative results added 03-23-2021.
+
+## Minnesota
+
+Added 2-26-2021. No local data available at the moment.
+* Some candidates for state legislature are missing from the precinct-level raw data:
+- Joshua Price (state senate district 16)
+- Myron Arthur Wilsom (state rep district 15B)
+- Antonio Nerios (state rep district 43B)
+- Lisa Neal-Delgado (state rep district 59B)
+- Calvin Lee Carpenter (state rep district 60A)
 
 ## Montana
 
