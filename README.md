@@ -108,7 +108,7 @@ Added 02-19-2021. Local data not included at the moment. State legislative resul
 
 ## Minnesota
 
-Added 2-26-2021. No local data available at the moment.
+Added 4-26-2021. No local data available at the moment.
 * Some candidates for state legislature are missing from the precinct-level raw data:
 - Joshua Price (state senate district 16)
 - Myron Arthur Wilsom (state rep district 15B)
