@@ -94,6 +94,12 @@ Added 03-31-2021. Local data not included at the moment.
 
 * Judge McGlynn (District 020 Retention Race) is missing from official IL results. They were nominated and approved to serve in a federal district court in 2020.
 
+## Iowa
+
+Added 05-06-2021. Local data not included at the moment.
+
+* Counts in the race for US HOUSE District 2 in Scott County are short by a total of 184 votes across all candidates.
+
 ## Louisiana
 
 Added 4-20-2021. Local data not included at the moment.
