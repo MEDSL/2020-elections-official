@@ -115,12 +115,41 @@ Added 02-19-2021. Local data not included at the moment. State legislative resul
 ## Minnesota
 
 Added 4-26-2021. No local data available at the moment.
+
 * Some candidates for state legislature are missing from the precinct-level raw data:
 - Joshua Price (state senate district 16)
 - Myron Arthur Wilsom (state rep district 15B)
 - Antonio Nerios (state rep district 43B)
 - Lisa Neal-Delgado (state rep district 59B)
 - Calvin Lee Carpenter (state rep district 60A)
+
+## Mississippi
+
+Added 5-10-2021. No local data available at the moment.
+
+* Only includes US President, US Senate, and US House results at the moment.
+
+* Many of the race totals are off by a handful of votes, and we are not able to identify the individual precincts which are off. 
+
+* Here are some of the discrepancies reported for president. (Values in parentheses are how much higher or lower our data is relative to what is reported in official results, i.e. MEDSL total minus the official reported total.)
+
+STATEWIDE
+Trump (+102)
+Biden (-1814)
+
+Counties with discrepancies:
+
+Trump
+AMITE (+80)
+COAHOMA (+25)
+KEMPER (-3)
+
+Biden
+BOLIVAR (-200)
+COAHOMA (+111)
+COVINGTON (-3)
+HINDS (-1400)
+SCOTT (-322)
 
 ## Montana
 
