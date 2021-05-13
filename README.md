@@ -184,6 +184,10 @@ Ohio does not provide precinct-based vote totals for writein candidates, but the
 
 Added 02-01-2021. Local data not included at the moment.
 
+## South Carolina
+
+Added 05-13-2021. Local data not included at the moment.
+
 ## Tennessee
 
 Added 01-28-2021. Local data not included at the moment.
