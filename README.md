@@ -100,6 +100,11 @@ Added 05-06-2021. Local data not included at the moment.
 
 * Counts in the race for US HOUSE District 2 in Scott County are short by a total of 184 votes across all candidates.
 
+## Kansas
+
+Added 5-17-2021. Local and Judicial District Court data and not included at the moment. 
+
+
 ## Louisiana
 
 Added 4-20-2021. Local data not included at the moment.
