@@ -160,6 +160,13 @@ SCOTT (-322)
 
 Added 02-02-2021.
 
+## Nevada
+
+Added 06-02-2021. Local data not included at the moment.
+
+* From the official Nevada 2020 Election results spreadsheet: "Note: In cases where the cumulative turnout for a precinct for a race or ballot question is greater than 0 but less than 10, the numbers have been replaced with an asterisk in order to protect the secrecy of a voter's ballot, as required by Nevada Law. As a result, the total for a precinct may be different from what is reported on official documents." 
+* We have included these cases in our cleaned results, replacing the asterisk with -1 to preserve the votes values as ints. These results should be dropped when aggregating results at the state/county level. Certain county aggregated results in affected races are marginally different from the official reported vote totals due to the masking of votes for privacy purposes.
+
 ## New Mexico
 
 Added 03-28-2021. Local data not included at the moment.
@@ -201,7 +208,7 @@ Added 01-28-2021. Local data not included at the moment.
 
 Added 03-16-2021. Local data not included at the moment.
 
-*Duchesne county is short one vote compared to official sources (https://electionresults.utah.gov/elections/). As such, the county of Duchesne is flagged readme_check==True. 
+* Duchesne county is short one vote compared to official sources (https://electionresults.utah.gov/elections/). As such, the county of Duchesne is flagged readme_check==True. 
 
 ## Virginia
 
@@ -212,6 +219,10 @@ Many of the write-in candidates in the Virginia elections show small discrepanci
 ## Washington
 
 Added 01-27-2021. Local data not included at the moment.
+
+## West Virginia
+
+Added 06-02-2021. Local data not included at the moment.
 
 ## Wisconsin
 
