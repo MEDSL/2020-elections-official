@@ -109,6 +109,15 @@ Added 5-17-2021. Local and Judicial District Court data and not included at the 
 
 Added 4-20-2021. Local data not included at the moment.
 
+## Maine
+
+Added 07-01-2021.
+
+* Maine reports election results at the township level, rather at the precinct level. Township/municipality is treated as precinct in the cleaned data. 
+
+* Certain rows contain county-fips info in place of jurisdiction-fips info for one of two reasons: (1) Maine reports state UOCAVA vote totals for each candidate aggregated at the county level. (2) Township information for certain towns could not be matched to our jurisdiction-fips merger file. 
+
+
 ## Maryland
 
 Added 02-09-2021. Local data not included at the moment.
