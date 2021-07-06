@@ -221,7 +221,7 @@ Added 03-16-2021. Local data not included at the moment.
 
 ## Vermont
 
-Added 07-06-2021. Local data not included at the moment.
+Added 07-06-2021. 
 
 * For State Senate races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county, so special care must be taken care off when aggregating votes. These towns are marked in the precinct column with " - FLOAT" and affect the following races:
 - Addison State Senate: Huntington is in Chittenden County and votes for Addison State Senator.
