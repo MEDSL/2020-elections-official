@@ -220,51 +220,17 @@ Added 03-16-2021. Local data not included at the moment.
 * Duchesne county is short one vote compared to official sources (https://electionresults.utah.gov/elections/). As such, the county of Duchesne is flagged readme_check==True. 
 
 ## Vermont
-* For State Senator races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county. These are:
 
-#### Addison
-* Huntington is in Chittenden and votes for Addison senator
-'WAS-CHI_HUNTINGTON'
+Added 07-06-2021. Local data not included at the moment.
 
-#### Bennington
-* Wilmington is in Windham and votes for Bennington senator
-'WDH-6_WILMINGTON'
-
-#### Caledonia
-* Several towns are in Orange and vote for Caledonia senator
-'ORA-2_BRADFORD'
-'ORA-2_FAIRLEE'
-'ORA-2_WEST FAIRLEE'
-'ORA-CAL_NEWBURY'
-'ORA-CAL_TOPSHAM'
-
-#### Chittenden
-* -
-
-#### Essex-Orleans
-* Wolcott is in Lamoille and votes for Essex-Orleans senator
-'LAM-2_WOLCOTT'
-
-#### Franklin
-* Alburgh is in Grand Isle and votes for Franklin senator
-'GI-CHI_ALBURGH'
-
-#### Grand Isle
-* Colchester is in Chittenden and votes for Grand Isle senator
-'CHI-9-1_COLCHESTER'
-'CHI-9-2_COLCHESTER'
-
-#### Lamoille
-* -
-
-#### Orange
-* -
-
-#### Rutland
-* -
-
-#### Washington
-* -
+* For State Senate races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county, so special care must be taken care off when aggregating votes. These towns are marked in the precinct column with " - FLOAT" and affect the following races:
+- Addison State Senate: Huntington is in Chittenden County and votes for Addison State Senator.
+- Bennington State Senate: Wilmington is in Windham County and votes for Bennington State Senator.
+- Caledonia State Senate: Bradford, Fairlee, West Fairlee, Newbury, Topsham are in Orange County and vote for Caledonia State Senator.
+- Essex-Orleans State Senate: Wolcott is in Lamoille County and votes for Essex-Orleans State Senator.
+- Franklin State Senate: Alburgh is in Grand Isle County and votes for Franklin State Senator.
+- Grand Isle State Senate: Colchester is in Chittenden County and votes for Grand Isle State Senator.
+- Windsor State Senate: Londonderry is in Windham County and votes for Windsor State Senator.
 
 ## Virginia
 
