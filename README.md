@@ -197,7 +197,7 @@ Added 03-16-2021. Local data not included at the moment.
 Ohio records its data with precincts on rows and candidates on columns. However, they record candidates that were not selectable in a particular precinct (because they did not run in a the associated district) as having received 0 votes, which is otherwise indistinguishable from candidates who ran in a precinct but received no votes. Keeping all these entries as is yields over 3 million records records and an extremely large file, so 0 vote records were manually dropped as follows:
   - Records for candidates running for US President were kept as is.
   - For all other records, entries with 0 votes were discarded.
-This leads to the unfortunate situation where every other race (including US House, State Senate and State House elections, which are district based but do not list name of county) will have more records than needed removed (namely, records of candidates who ran in a precinct but got 0 votes there).
+This leads to the situation where every other race (including US House, State Senate and State House elections, which are district based but do not list name of county) will have more records than needed removed (namely, records of candidates who ran in a precinct but got 0 votes there).
 
 Ohio does not provide precinct-based vote totals for writein candidates, but they do provide a county-based vote total for each writein. The cleaned dataset aggregates all writeins per office on a county basis.
 
@@ -212,6 +212,15 @@ Added 05-13-2021. Local data not included at the moment.
 ## Tennessee
 
 Added 01-28-2021. Local data not included at the moment.
+
+## Texas
+
+Added 07-12-2021. Local data not included at the moment.
+
+* Raw data were obtained from the Texas Legislative Council (https://data.capitol.texas.gov/dataset/2020_general). 
+* When comparing the precinct results to the official county results, MEDSL identified a list of precinct results (aggregated by county/office/candidate/district) that do not match the offical totals. The majority of discrepancies are insignificant relative to the total votes, but larger counties (eg Williamson), have more substantial discrepancies. Documentation containing the exact vote total discrepancies is available upon request. 
+* The Texas Legislative Council data contains breakdown by Voting Tabulation District (VTD). This is treated as the precinct field in our data. The number of VTDs in a county do not always match the number of precincts in a given county (https://data.capitol.texas.gov/topic/about/elections)
+* Races where candidates ran unopposed and recieved 100% of the votes were not included in the raw precinct data.
 
 ## Utah
 
