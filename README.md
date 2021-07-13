@@ -176,6 +176,22 @@ Added 06-02-2021. Local data not included at the moment.
 * From the official Nevada 2020 Election results spreadsheet: "Note: In cases where the cumulative turnout for a precinct for a race or ballot question is greater than 0 but less than 10, the numbers have been replaced with an asterisk in order to protect the secrecy of a voter's ballot, as required by Nevada Law. As a result, the total for a precinct may be different from what is reported on official documents." 
 * We have included these cases in our cleaned results, replacing the asterisk with -1 to preserve the votes values as ints. These results should be dropped when aggregating results at the state/county level. Certain county aggregated results in affected races are marginally different from the official reported vote totals due to the masking of votes for privacy purposes.
 
+## New Hampshire
+
+Added 07-13-2021.
+
+* Districts marked with an F are floterial districts.
+
+* State House district numbers reset for every county. Thus, state house members need to have their districts concatenated with county when inspecting district information.
+
+* Our aggregated results do not match official totals for certain races. Those races include (but may not be limited to):
+- All County Register of Probate candidates in Grafton County (Excel spreadsheet sum cells missed two rows).
+- Scatter candidates in State House District 18 in Strafford County (Sum cell is off by one).
+
+* No full names could be found for writein candidates Teszler and Townsend for County Register of Probate in Grafton County.
+
+* Recounts in the state do not seem to include scatter votes, so they were not included. This explicitly affects all races with stage 'GEN RECOUNT' but State Senate District 12 (which did not list any scatters for the original race either).
+
 ## New Mexico
 
 Added 03-28-2021. Local data not included at the moment.
