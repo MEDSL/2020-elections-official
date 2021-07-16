@@ -126,6 +126,23 @@ Added 02-09-2021. Local data not included at the moment.
 
 Added 02-19-2021. Local data not included at the moment. State legislative results added 03-23-2021.
 
+## Michigan
+
+Added 07-16-2021. Local data not included at the moment.
+
+* Precinct data are taken from https://miboecfr.nictusa.com/cgi-bin/cfr/precinct_srch.cgi?elect_year_type=2020GEN&county_code=00&Submit=Search
+
+* Precinct data contain precinct "9999", which are "statistical adjustments" rows that must be carefully considered when aggregating vote totals by office/county. 
+
+* Vote totals aggregated by county that include this 9999 precinct do not match the official county totals for every race.
+
+* Vote totals aggregated by county that DO NOT include this 9999 precinct do not match the official county totals for every race either, but are significantly closer to the official totals than when the 9999 precinct rows are kept.
+
+* All rows that have a discrepancy when aggregated by county (with or without the 9999 precinct rows) are marked readme_check == "TRUE". 
+
+* More information about "9999" precincts and the nature of the discrepancies will be added to the README.md as we receive it.
+
+
 ## Minnesota
 
 Added 4-26-2021. No local data available at the moment.
@@ -221,9 +238,19 @@ Ohio does not provide precinct-based vote totals for writein candidates, but the
 
 Added 02-01-2021. Local data not included at the moment.
 
+## Rhode Island
+
+Added 07-16-2021.
+
 ## South Carolina
 
 Added 05-13-2021. Local data not included at the moment.
+
+## South Dakota
+
+Added 07-16-2021. Local data not included at the moment.
+
+* State house district 012 features original results and recount results. The two counts are differentiated by the mode field (either "GEN" or "GEN RECOUNT").
 
 ## Tennessee
 
@@ -234,8 +261,11 @@ Added 01-28-2021. Local data not included at the moment.
 Added 07-12-2021. Local data not included at the moment.
 
 * Raw data were obtained from the Texas Legislative Council (https://data.capitol.texas.gov/dataset/2020_general). 
+
 * When comparing the precinct results to the official county results, MEDSL identified a list of precinct results (aggregated by county/office/candidate/district) that do not match the offical totals. The majority of discrepancies are insignificant relative to the total votes, but larger counties (eg Williamson), have more substantial discrepancies. Documentation containing the exact vote total discrepancies is available upon request. 
+
 * The Texas Legislative Council data contains breakdown by Voting Tabulation District (VTD). This is treated as the precinct field in our data. The number of VTDs in a county do not always match the number of precincts in a given county (https://data.capitol.texas.gov/topic/about/elections)
+
 * Races where candidates ran unopposed and recieved 100% of the votes were not included in the raw precinct data.
 
 ## Utah
