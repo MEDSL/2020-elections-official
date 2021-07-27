@@ -182,6 +182,10 @@ COVINGTON (-3)
 HINDS (-1400)
 SCOTT (-322)
 
+## Missouri
+
+Added 7-27-2021. No local data available at the moment.
+
 ## Montana
 
 Added 02-02-2021.
