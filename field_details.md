@@ -1,5 +1,15 @@
 ## Fields:
-"Datatype - [field description]"
+This markdown describes each field in the format "Datatype - [field description]".
+
+* When reading in data in Python, utilize "dtype" parameter of the ".read_csv()" command to retain proper formatting of string padded fields. The "dtype" parameter can be set equal to the "official_datatypes" dictionary provided below for every precinct file except for the individual state file for Texas. Texas provides voter turnout percentage statistics which were retained in the "votes" column, so "votes" will need to be read as float dtype for this individual file.
+
+* official_dtypes = {'precinct':str,'office':str, 'party_detailed':str, 
+		'party_simplified':str,'mode':str,'votes':int, 'county_name':str,
+		'county_fips':str, 'jurisdiction_name':str,'jurisdiction_fips':str,
+		'candidate':str, 'district':str, 'dataverse':str,'year':int,
+		'stage':str, 'state':str, 'special':str, 'writein':str, 'state_po':str,
+		'state_fips':str, 'state_cen':str, 'state_ic':str, 'date':str, 
+		'readme_check':str,'magnitude':int} 
 
 ### precinct: 
 string - Identifier for the smallest election reporting unit of a state. 
@@ -72,10 +82,10 @@ NOTE: Info from states that report recounts (ie NH) is kept as "RECOUNT".
 string - The name of the state. 
 
 ### special:
-boolean - An indicator for whether the election was a special election, "True" if special, "False" for non-special.
+string - An indicator for whether the election was a special election, "TRUE" if special, "FALSE" for non-special.
 
 ### writein:
-boolean - An indicator for whether the candidate was a write in, "True" if write in, "False" otherwise. 
+string - An indicator for whether the candidate was a write in, "True" if write in, "False" otherwise. 
 
 NOTE: "Scattered" write in votes (aggregated totals accross multiple write in candidates) are kept when given and marked "True". 
 
@@ -83,16 +93,16 @@ NOTE: "Scattered" write in votes (aggregated totals accross multiple write in ca
 string - The state postal abbreviation.
 
 ### state_fips:
-int - The state's fips code, 2 digits.
+string - The state's fips code, 2 digit string padded.
 
 ### state_cen: 
-int - The state's census code.
+string - The state's census code, 2 digit string padded.
 
 ### state_ic:
-int - Alternative state identity code.
+string - Alternative state identity code, 2 digit string padded.
 
 ### date: 
 string - The date of the election, formatted as %y-%m-%d.
 
 ### readme_check:
-boolean - An indicator for whether an issue arose with the data, "True" if so, and "False" otherwise. Description of issues will be documented in the README.md file of the 2020-elections-official github.
+string - An indicator for whether an issue arose with the data, "TRUE" if so, and "FALSE" otherwise. Description of issues will be documented in the README.md file of the 2020-elections-official github.
