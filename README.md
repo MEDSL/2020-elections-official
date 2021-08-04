@@ -108,12 +108,19 @@ Added 05-06-2021. Local data not included at the moment.
 
 ## Kansas
 
-Added 5-17-2021. Local and Judicial District Court data and not included at the moment. 
+Added 05-17-2021. Local and Judicial District Court data and not included at the moment. 
 
+## Kentucky
+
+Added 08-04-2021. Local data not included at the moment.
+
+* Kentucky precinct data source is: https://results.enr.clarityelections.com/KY/106379/web.264614/#/summary. These results are "unofficial", thus vote totals are marginally undercounted in certain counties/races. 
+
+* Certain Kentucky counties do not report data at the precinct level, either aggregated by voting mode at the county level or total votes at the county level. Certain Kentucky counties chose to centralize voting at the county level, allowing voters to vote at any open polling location as a result of poll closures during the COVID-19 pandemic. Such counties are marked in the precinct field as "COUNTY FLOATING".
 
 ## Louisiana
 
-Added 4-20-2021. Local data not included at the moment.
+Added 04-20-2021. Local data not included at the moment.
 
 ## Maine
 
@@ -151,7 +158,7 @@ Added 07-16-2021. Local data not included at the moment.
 
 ## Minnesota
 
-Added 4-26-2021. No local data available at the moment.
+Added 04-26-2021. No local data available at the moment.
 
 * Some candidates for state legislature are missing from the precinct-level raw data:
 - Joshua Price (state senate district 16)
@@ -162,7 +169,7 @@ Added 4-26-2021. No local data available at the moment.
 
 ## Mississippi
 
-Added 5-10-2021. No local data available at the moment.
+Added 05-10-2021. No local data available at the moment.
 
 * Only includes US President, US Senate, and US House results at the moment.
 
@@ -190,11 +197,15 @@ SCOTT (-322)
 
 ## Missouri
 
-Added 7-27-2021. No local data available at the moment.
+Added 07-27-2021. No local data available at the moment.
 
 ## Montana
 
 Added 02-02-2021.
+
+## Nebraska
+
+Added 08-04-2021.
 
 ## Nevada
 
