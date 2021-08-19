@@ -44,9 +44,9 @@ For office US PRESIDENT, HAWKINS AND WALKER has 7529 in our data instead of 7538
 
 For office US PRESIDENT, JORGENSEN AND COHEN has 20225 in our data instead of 20230 reported online
 
-## District of Columbia
+## Delaware
 
-Added 08-17-2021.
+Added 08-19-2021.
 
 * The “precinct” field for Delaware’s cleaned results is formatted as “Election District #-State House District #”. This is following the format of Delaware’s Election District Structure as seen at https://elections.delaware.gov/districtmaps/pdfs/EDRD2012_2022v1.pdf This is reversed from the format of the precinct/election district name published in the official results, to remain consistent with previously cleaned election results from 2016/2018.
 
