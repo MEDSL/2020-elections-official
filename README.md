@@ -4,7 +4,7 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
  Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
  
-![Screenshot](precinct_progress_map_2021-08-05.png)
+![Screenshot](precinct_progress_map_2021-08-19.png)
 
 
 
@@ -43,6 +43,14 @@ For office US HOUSE district 003, MARGARET STREICKER has 6026 in our data instea
 For office US PRESIDENT, HAWKINS AND WALKER has 7529 in our data instead of 7538 reported online
 
 For office US PRESIDENT, JORGENSEN AND COHEN has 20225 in our data instead of 20230 reported online
+
+## District of Columbia
+
+Added 08-17-2021.
+
+* The “precinct” field for Delaware’s cleaned results is formatted as “Election District #-State House District #”. This is following the format of Delaware’s Election District Structure as seen at https://elections.delaware.gov/districtmaps/pdfs/EDRD2012_2022v1.pdf This is reversed from the format of the precinct/election district name published in the official results, to remain consistent with previously cleaned election results from 2016/2018.
+
+* Precincts 17-41 and 17-31 received 0 votes in the official results. These precincts are not present in previous election returns.
 
 ## District of Columbia
 
