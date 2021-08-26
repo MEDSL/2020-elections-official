@@ -28,6 +28,10 @@ Added 07-29-2021. Local data not included at the moment.
 
 * Votes for Ventura County State Senate District 19 were listed as 0 in the official precinct results. The county aggregate results were added with the precinct "COUNTY FLOATING". All State Senate District 19 rows are subsequently marked 'readme_check == "TRUE"'.
 
+## Colorado
+
+Added 08-26-2021.
+
 ## Connecticut
 
 Added 02-22-2021. Local data not included at the moment.
