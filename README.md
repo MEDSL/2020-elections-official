@@ -271,6 +271,10 @@ Ohio does not provide precinct-based vote totals for writein candidates, but the
 
 Added 02-01-2021. Local data not included at the moment.
 
+## Oregon
+
+Added 08-27-2021. Only includes presidential data at the moment.
+
 ## Rhode Island
 
 Added 07-16-2021.
