@@ -4,7 +4,7 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
  Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
  
-![Screenshot](precinct_progress_map_2021-08-26.png)
+![Screenshot](precinct_progress_map_2021-09-07.png)
 
 
 
@@ -17,6 +17,10 @@ Added 02-22-2021. Local data not included at the moment. Overvotes and Undervote
 ## Alaska
 
 Added 02-23-2021. 
+
+## Arizona
+
+Added 09-07-2021. Local data not included at the moment. Precinct data for write-in candidates currently unavailable.
 
 ## Arkansas
 
