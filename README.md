@@ -252,6 +252,15 @@ Added 03-28-2021. Local data not included at the moment.
 
 * New Mexico "masks" vote totals in precinct results for candidates with small vote tallies, to protect the privacy of voters. These masked votes are denoted as "-1" in the votes column.
 
+## New York
+
+Added 09-28-2021. Only includes data for US President at the moment. 
+
+* Counties with unaccounted discrepancies for US PRESIDENT (our data - official county data):
+- CAYUGA [Trump (REP) -1, Trump (Other) +1] 
+- PUTNAM [Biden (DEM) -6, Trump (REP) -6]
+- SUFFOLK [Trump (Other) -34, Hawkins (Other) -5, Jorgensen (LBT) -10, Pierce (Other) -14] 
+
 ## North Carolina
 
 Added 01-27-2021. Updated 09-20-2021 to include transfer ballot data within "individual_states" zipfile. The file "2020-nc-precinct-general-transfer.csv" contains the mode for transfer ballots. Matching these votes to specific precincts introduces small amounts of error to the overall vote totals when aggregating by office/county.
