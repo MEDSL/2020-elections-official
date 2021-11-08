@@ -254,12 +254,17 @@ Added 03-28-2021. Local data not included at the moment.
 
 ## New York
 
-Added 09-28-2021. Only includes data for US President at the moment. 
+Updated 11-08-2021. Only includes data for US President and US House at the moment. Data contain some small discrepancies with official data due to changes reflected in the "Revision History" of official county level data. These revisions are not matched to precincts and thus not reflected in our precinct data. Other small discrepancies NOT accounted for in the revision history are documented below.
 
 * Counties with unaccounted discrepancies for US PRESIDENT (our data - official county data):
 - CAYUGA [Trump (REP) -1, Trump (Other) +1] 
 - PUTNAM [Biden (DEM) -6, Trump (REP) -6]
 - SUFFOLK [Trump (Other) -34, Hawkins (Other) -5, Jorgensen (LBT) -10, Pierce (Other) -14] 
+
+* Counties with unaccounted discrepancies for US HOUSE (our data - official county data):
+- PUTNAM (district 18) [CHELE C FARLEY (REP) -6, SCOTT A SMITH (LBT) -1, SEAN PATRICK MALONEY (DEM) -4, SEAN PATRICK MALONEY (IND) -1]
+- LEWIS (district 21) [ELISE M STEFANIK (REP) -4, TEDRA L COBB (Working Families) -9] 
+- TOMPKINS (district 23) [TRACY MITRANO (DEM) -1] 
 
 ## North Carolina
 
