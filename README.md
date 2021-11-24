@@ -4,7 +4,7 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
  Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
  
-![Screenshot](precinct_progress_map_2021-09-22.png)
+![Screenshot](precinct_progress_map_2021-11-24.png)
 
 
 
@@ -254,17 +254,26 @@ Added 03-28-2021. Local data not included at the moment.
 
 ## New York
 
-Updated 11-08-2021. Only includes data for US President and US House at the moment. Data contain some small discrepancies with official data due to changes reflected in the "Revision History" of official county level data. These revisions are not matched to precincts and thus not reflected in our precinct data. Other small discrepancies NOT accounted for in the revision history are documented below.
+Updated 11-24-2021. Only includes data for US President, US House, State House, and State Senate at the moment. Data contain some small discrepancies with official SOS data due to changes reflected in the "Revision History" of official county level data. These revisions are not matched to precincts and thus not reflected in our precinct data. Other small discrepancies NOT accounted for in the revision history are documented below.
 
-* Counties with unaccounted discrepancies for US PRESIDENT (our data - official county data):
+* Counties with unaccounted discrepancies for US PRESIDENT (our data - SOS county data):
 - CAYUGA [Trump (REP) -1, Trump (Other) +1] 
 - PUTNAM [Biden (DEM) -6, Trump (REP) -6]
 - SUFFOLK [Trump (Other) -34, Hawkins (Other) -5, Jorgensen (LBT) -10, Pierce (Other) -14] 
 
-* Counties with unaccounted discrepancies for US HOUSE (our data - official county data):
+* Counties with unaccounted discrepancies for US HOUSE (our data - SOS county data):
 - PUTNAM (district 18) [CHELE C FARLEY (REP) -6, SCOTT A SMITH (LBT) -1, SEAN PATRICK MALONEY (DEM) -4, SEAN PATRICK MALONEY (IND) -1]
 - LEWIS (district 21) [ELISE M STEFANIK (REP) -4, TEDRA L COBB (Working Families) -9] 
-- TOMPKINS (district 23) [TRACY MITRANO (DEM) -1] 
+- TOMPKINS (district 23) [TRACY MITRANO (DEM) -1]
+
+* Counties with unaccounted discrepancies for STATE SENATE (our data - SOS county data):
+- LEWIS (district 47) [JOSEPH A GRIFFO (REP) -4, JOSEPH A GRIFFO (CON) -1]
+- SENECA (district 54) [PAMELA A HELMING (REP) +95, PAMELA A HELMING (CON) -206, PAMELA A HELMING (IND) +107, PAMELA A HELMING (SAM) +2, SHAUNA O'TOOLE (DEM) -646]
+
+* Counties with unaccounted discrepancies for STATE HOUSE (our data - SOS county data):
+- LEWIS (district 117) [KENNETH BLANKENBUSH (REP) -4, KENNETH BLANKENBUSH (CON) -1]
+- DELAWARE (district 122) [JOE G ANGELINO (CON) +1]
+- CHENANGO (district 126) [DIA CARABAJAL (WF) -1]
 
 ## North Carolina
 

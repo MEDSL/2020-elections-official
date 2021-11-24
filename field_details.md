@@ -1,7 +1,7 @@
 ## Fields:
 This markdown describes each field in the format "Datatype - [field description]".
 
-* When reading in data in Python, utilize "dtype" parameter of the ".read_csv()" command to retain proper formatting of string padded fields. The "dtype" parameter can be set equal to the "official_datatypes" dictionary provided below for every precinct file except for the individual state file for Texas. Texas provides voter turnout percentage statistics which were retained in the "votes" column, so "votes" will need to be read as float dtype for this individual file.
+* When reading in data in Python, utilize "dtype" parameter of the "pd.read_csv()" command to retain proper formatting of string padded fields. The "dtype" parameter can be set equal to the "official_datatypes" dictionary provided below for every precinct file except for the individual state file for Texas. Texas provides voter turnout percentage statistics which were retained in the "votes" column, so "votes" will need to be read as float dtype for this individual file.
 
 * official_dtypes = {'precinct':str,'office':str, 'party_detailed':str, 
 		'party_simplified':str,'mode':str,'votes':int, 'county_name':str,
