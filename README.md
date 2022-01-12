@@ -106,13 +106,13 @@ Added 04-02-2021.
 
 Added 04-05-2021. Local data not included at the moment.
 
-* For Constitutional Amendment HJR 4, Power County reported 2,017 votes for YES (https://sos.idaho.gov/elections-division/2020-results-statewide/) while the raw data reported 1,967 votes. This accounts for the entirety of the vote difference when comparing the Secretary of State total (525,779) versus the raw data total (525,729).
+* Updated 12-07-2021. Updated underlying raw data to fix previous discrepancy in votes for Constitutional Amendment HJR 4 in Power County.
 
 ## Illinois
 
 Added 03-31-2021. Local data not included at the moment.
 
-* Official IL results report only certain individual write-in candidates, while precinct data reports scatter wrtie-ins
+* Official IL results report only certain individual write-in candidates, while precinct data reports scatter write-ins
 
 * Judge McGlynn (District 020 Retention Race) is missing from official IL results. They were nominated and approved to serve in a federal district court in 2020.
 
@@ -121,6 +121,8 @@ Added 03-31-2021. Local data not included at the moment.
 Added 05-06-2021. Local data not included at the moment.
 
 * Counts in the race for US HOUSE District 2 in Scott County are short by a total of 184 votes across all candidates.
+
+* Updated 12-09-2021 so US HOUSE District 2 results in Scott County now match the official precinct results at https://sos.iowa.gov/elections/results/xls/2020/general/Scott.pdf.
 
 ## Kansas
 
@@ -281,7 +283,7 @@ Added 01-27-2021. Updated 09-20-2021 to include transfer ballot data within "ind
 
 ## North Dakota
 
-Added 02-24-2021. Local data and state legislative election results not included at the moment.
+Added 02-24-2021. Local data not included at the moment. Updated 12-08-2021 to include state legislative house and senate results.
 
 ## Ohio
 
