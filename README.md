@@ -4,7 +4,7 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
  Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
  
-![Screenshot](precinct_progress_map_2021-11-24.png)
+![Screenshot](precinct_progress_map_2022-01-14.png)
 
 
 
@@ -303,6 +303,26 @@ Added 02-01-2021. Local data not included at the moment.
 ## Oregon
 
 Added 08-27-2021. Only includes data for US President, US Senate, and US House at the moment.
+
+## Pennsylvania
+
+Added 01-14-2022. Local data not included at the moment.
+
+* The raw precinct data is provided by the Pennsylvania Department of State.
+
+* The raw precinct data included a "Municipality Name" field, which has been stored in the "jurisdiction_name" field of our dataset. However, the "jurisdiction_fips" field is the same as the "county_fips" field, as there are no 10 digit jurisdiction FIPs codes associated with the provided municipalities. 
+
+* There are marginal discrepancies between the aggregated precinct results and the results from the Secretary of State’s website. Precinct results are uncertified and uncorrected for later updates during the certification process, whereas the state website results reflect certified returns. Certified SOS results include “grace period” ballots (ballots postmarked and received by the Friday after election day), while the precinct results in many counties often do not.
+
+* Here are the discrepancies by county for US President (aggregated precinct data - official SOS results)
+	- ADAMS (Trump +44, Biden +53)
+	- ALLEGHENY (Trump +765, Biden +1147)
+	- DELAWARE (Trump +362, Biden +214)
+	- FAYETTE (Trump +16, Biden +10)
+	- MONROE (Trump -601, Biden -731)
+	- NORTHUMBERLAND (Trump +314, Biden +75)
+	- PHILADELPHIA (Trump -158, Biden -2011)
+	- WESTMORELAND (Trump +904, Biden +357)
 
 ## Rhode Island
 
