@@ -4,7 +4,7 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 
  Users can download data by the level of office returns (president, US senate, US house, state, or local levels). For each state that is complete, users can also download all of the precinct-level returns separately in the folders above.
  
-![Screenshot](precinct_progress_map_2022-01-14.png)
+![Screenshot](precinct_progress_map_2022-01-27.png)
 
 
 
@@ -247,6 +247,12 @@ Added 07-13-2021.
 * No full names could be found for writein candidates Teszler and Townsend for County Register of Probate in Grafton County.
 
 * Recounts in the state do not seem to include scatter votes, so they were not included. This explicitly affects all races with stage 'GEN RECOUNT' but State Senate District 12 (which did not list any scatters for the original race either).
+
+## New Jersey
+
+Added 01-28-2022. Local data not included at the moment.
+
+* New Jersey reports election results at the township level, rather at the precinct level. Township/borough is treated as precinct in the cleaned data. 
 
 ## New Mexico
 
