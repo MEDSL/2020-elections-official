@@ -397,6 +397,8 @@ Added 06-02-2021. Local data not included at the moment.
 
 Added 01-29-2021.
 
+9 Two towns in Wisconsin (Waukesha, Waukesha County; Vernon, Waukesha County) were upgraded to villages in 2020 [1](https://www.jsonline.com/story/communities/waukesha/news/2020/05/06/town-waukesha-residents-ok-incorporation-referendum-huge-margin/5175520002/) [2](https://www.villageofvernonwi.org/newsdetail_T2_R397.php). However, both the [Wisconsin](https://doa.wi.gov/DIR/Changes_in_WI_Munis_2000.xlsx) and [US Census]  (https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes.html) directories do not reflect the changes. For the moment, their jurisdiction FIPS code is listed as the one they had while they were a town.
+
 ## Wyoming
 
 Added 02-03-2021.
