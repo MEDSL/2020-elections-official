@@ -38,19 +38,17 @@ Added 08-26-2021.
 
 ## Connecticut
 
-Added 02-22-2021. Local data not included at the moment.
+Updated 02-28-2022. Local data not included at the moment.
 
-There were a small number of discrepancies between our cleaned precinct results and the results from the Secretary of State's website (https://ctemspublic.pcctg.net/#/selectTown). These seem to be from a couple of duplicate rows in the exported data, which we have removed in our cleaned data. This means that for a small number of offices, we will report a slightly lower number of total votes than the results posted online. 
-
-Here are the discrepancies:
-
-For office STATE SENATE district 024, SUSAN CHAPMAN has 823 in our data instead of 827 reported online
-
-For office US HOUSE district 003, MARGARET STREICKER has 6026 in our data instead of 6030 reported online
-
-For office US PRESIDENT, HAWKINS AND WALKER has 7529 in our data instead of 7538 reported online
-
-For office US PRESIDENT, JORGENSEN AND COHEN has 20225 in our data instead of 20230 reported online
+* Small, marginal discrepancies are present between the raw aggregated precinct data from the state and the official reports. Most legislative offices aggregate to the exact state totals. Here are the county level discrepancies for the office of president (official vs. our precinct data):
+* Trump
+- Fairfield:	169,039 vs 168445
+- New Haven:	169,893 vs 169892
+- Tolland:		34,838 vs 34819
+* Biden
+- New Haven:	242,630 vs 242629
+- Tolland:		44,151 vs 44006
+- Windham:		26,706 vs 26701
 
 ## Delaware
 
