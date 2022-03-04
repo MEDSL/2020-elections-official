@@ -366,9 +366,11 @@ Added 03-16-2021. Local data not included at the moment.
 
 ## Vermont
 
-Added 07-06-2021. 
+Updated 03-04-2022. 
 
-* For State Senate races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county, so special care must be taken care off when aggregating votes. These towns are marked in the precinct column with " - FLOAT" and affect the following races:
+* Vermont provides the township level data broken down further by representative districts within township. The precinct field is thus a combination of the "Township" and "Rep District" fields, separated by an underscore "_".
+
+* For State Senate races, Vermont has floating towns: towns that are physically located in one county but vote for senator in another county, so special care must be taken care off when aggregating votes.
 - Addison State Senate: Huntington is in Chittenden County and votes for Addison State Senator.
 - Bennington State Senate: Wilmington is in Windham County and votes for Bennington State Senator.
 - Caledonia State Senate: Bradford, Fairlee, West Fairlee, Newbury, Topsham are in Orange County and vote for Caledonia State Senator.
