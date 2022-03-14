@@ -7,6 +7,7 @@ This is the MEDSL repository for official precinct returns for 2020 General Elec
 ![Screenshot](precinct_progress_map_2022-01-27.png)
 
 
+General Note: The format of certain states precinct results sometimes lead to the inclusion of zero votes in a precinct. These rows are not systematically dropped due to the fact that these are not always errors as a result of formatting, but can sometimes reflect true precincts with no voters. There is no straightforward way to systematically identify and drop illegitimate zero-vote precincts while retaining legitimate ones. This means that sometimes there are location-office combinations that do not actually correspond to a real election that occurred, but in the data are assigned 0 votes (for example, a state house candidate might be listed as receiving 0 votes in a precinct that isn't actually part of their district). If a user plans to perform an analysis which might be sensitive to extra nonexistent 0 vote precincts, it is advisable to first double check that each of these precincts was really one of the locations where that race occurred.
 
 The returns are in progress, and will be updated periodically until completion. The following states and districts are included in the dataset:
 
@@ -283,7 +284,17 @@ Updated 11-24-2021. Only includes data for US President, US House, State House, 
 
 ## North Carolina
 
-Added 01-27-2021. Updated 09-20-2021 to include transfer ballot data within "individual_states" zipfile. The file "2020-nc-precinct-general-transfer.csv" contains the mode for transfer ballots. Matching these votes to specific precincts introduces small amounts of error to the overall vote totals when aggregating by office/county.
+Added 01-27-2021. Updated 09-20-2021 to include sorted precinct data within "individual_states" zipfile. The file "2020-nc-precinct-general-sorted.csv" contains the mode for transfer ballots. Matching these votes to specific precincts introduces small amounts of error to the overall vote totals when aggregating by office/county.
+
+Updated 03-14-2022.
+* The raw data source for the sorted precinct results is: https://dl.ncsbe.gov/?prefix=ENRS/2020_11_03/results_precinct_sort/
+
+* The codebook for the original fields in the raw sorted precinct results is: https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2020_11_03/layout_results_precinct_sort.txt
+
+* The raw data for the sorted precinct results contains two precinct columns (number and name). We combine these fields in the latest update, separating with an underscore "_" (name_code). If the fields match exactly or one is left blank, we only report one field that contains information.
+
+* The raw data sorted precinct results contains a field for the "group number", which is related to the voting mode. This field was initially excluded, but this introduced error to our version of the results in the form of near duplicate rows. Therefore, we have added the "Group number" to the mode field, separated by an underscore "_" (voting method_group number).
+
 
 ## North Dakota
 
